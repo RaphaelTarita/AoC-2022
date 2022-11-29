@@ -20,6 +20,15 @@ fun ByteArray.chunked(size: Int, offset: Int = 0, until: Int = this.size): List<
     return result
 }
 
+fun <T> List<T>.pad(toSize: Int, with: T): List<T> {
+    if (toSize <= size) return this
+    return List(toSize) { getOrNull(it) ?: with }
+}
+
+fun <T> List<T>.slice(indices: IntRange, padWith: T): List<T> {
+    return subList(indices.first, indices.last + 1).pad(indices.last - indices.first, padWith)
+}
+
 fun <K, V, U> innerJoin(left: Map<K, V>, right: Map<K, U>): Map<K, Pair<V, U>> {
     val result = mutableMapOf<K, Pair<V, U>>()
     for ((key, firstValue) in left) {
