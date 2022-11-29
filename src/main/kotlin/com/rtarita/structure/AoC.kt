@@ -78,7 +78,7 @@ object AoC {
 
     private fun getInputAndDay(d: LocalDate): Pair<String, AoCDay> {
         val path = pathOfDay(d)
-        return (if (path.exists()) path.readText() else "") to (executionlist[d] ?: FALLBACK)
+        return (if (path.exists()) path.readText() else "").trimEnd() to (executionlist[d] ?: FALLBACK)
     }
 
     private fun printFile(result: AoCResult, path: Path, config: IndentConfig, append: Boolean = false) {
