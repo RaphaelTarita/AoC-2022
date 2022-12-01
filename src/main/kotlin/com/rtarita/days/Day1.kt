@@ -9,10 +9,11 @@ object Day1 : AoCDay {
 
     override fun executePart1(input: String): Any {
         return input.splitToSequence("\n\n")
-            .maxOf { elf ->
+            .map { elf ->
                 elf.lineSequence()
                     .sumOf { it.toInt() }
             }
+            .max()
     }
 
     override fun executePart2(input: String): Any {
