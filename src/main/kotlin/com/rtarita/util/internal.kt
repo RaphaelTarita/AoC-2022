@@ -5,7 +5,6 @@ import kotlinx.datetime.Clock
 import kotlinx.datetime.LocalDate
 import kotlinx.datetime.Month
 import kotlinx.datetime.TimeZone
-import kotlinx.datetime.todayAt
 import kotlinx.datetime.todayIn
 import java.io.File
 import java.nio.file.Path
@@ -14,7 +13,7 @@ fun day(num: Int): LocalDate {
     return if (num == 0) {
         LocalDate(1970, 1, 1)
     } else {
-        return LocalDate(2021, Month.DECEMBER, num)
+        return LocalDate(2022, Month.DECEMBER, num)
     }
 }
 
