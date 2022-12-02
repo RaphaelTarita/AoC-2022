@@ -76,7 +76,7 @@ object Day2 : AoCDay {
             .sumOf { (opponent, you) -> you.value + evaluate(opponent, you).value }
     }
 
-    override fun executePart2(input: String): Any {
+    override fun executePart2(input: String): Int {
         return getInputSplit(input).map { (a, b) -> Play.fromString(a) to Outcome.fromString(b) }
             .sumOf { (opponent, outcome) -> getOwnMove(opponent, outcome).value + outcome.value }
     }
