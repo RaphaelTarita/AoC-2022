@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/day%20📅-4-yellow)
-![](https://img.shields.io/badge/stars%20⭐-6-blue)
-![](https://img.shields.io/badge/days%20completed-3-green)
+![](https://img.shields.io/badge/stars%20⭐-8-blue)
+![](https://img.shields.io/badge/days%20completed-4-green)
 
 # AoC-2022
 

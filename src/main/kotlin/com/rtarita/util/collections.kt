@@ -173,3 +173,17 @@ fun <T> Iterable<T>.splitAt(pos: Int): Pair<List<T>, List<T>> {
     }
     return first to second
 }
+
+fun IntRange.containsAll(other: IntRange): Boolean {
+    return first <= other.first && last >= other.last
+}
+
+infix fun IntRange.intersect(other: IntRange): IntRange {
+    return if (this.first <= other.first) {
+        other.first..this.last
+    } else {
+        this.first..other.last
+    }
+}
+
+fun IntRange.isNotEmpty() = !isEmpty()
