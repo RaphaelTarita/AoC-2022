@@ -7,11 +7,17 @@ import kotlinx.datetime.LocalDate
 object Day6 : AoCDay {
     override val day: LocalDate = day(6)
 
-    override fun executePart1(input: String): Any {
-        return "(not implemented)"
+    private fun findFirstMarker(input: String, uniqueSize: Int): Int {
+        return input.asSequence()
+            .windowed(uniqueSize)
+            .indexOfFirst { it.toSet().size == uniqueSize } + uniqueSize
     }
 
-    override fun executePart2(input: String): Any {
-        return "(not implemented)"
+    override fun executePart1(input: String): Int {
+        return findFirstMarker(input, 4)
+    }
+
+    override fun executePart2(input: String): Int {
+        return findFirstMarker(input, 14)
     }
 }
