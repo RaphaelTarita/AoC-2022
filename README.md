@@ -7,6 +7,15 @@
 My solutions for the Advent of Code 2022 (in Kotlin). Note that the vast majority of the scaffolding and util code was
 taken from my [AoC-2021 repository](https://github.com/RaphaelTarita/AoC-2021) from last year.
 
+### Direct links:
+
+- [Day 1](src/main/kotlin/com/rtarita/days/Day1.kt): solved, 2 stars ([input](input/day1.txt))
+- [Day 2](src/main/kotlin/com/rtarita/days/Day2.kt): solved, 2 stars ([input](input/day2.txt))
+- [Day 3](src/main/kotlin/com/rtarita/days/Day3.kt): solved, 2 stars ([input](input/day3.txt))
+- [Day 4](src/main/kotlin/com/rtarita/days/Day4.kt): solved, 2 stars ([input](input/day4.txt))
+- [Day 5](src/main/kotlin/com/rtarita/days/Day5.kt): solved, 2 stars ([input](input/day5.txt))
+- [Day 6](src/main/kotlin/com/rtarita/days/Day6.kt): solved, 2 stars ([input](input/day6.txt))
+
 ### Contents:
 
 - input: All input files, named as `day${day-of-month}.txt`
