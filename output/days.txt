@@ -1,175 +1,181 @@
 Day 1:
     Part 1:
         67633
-        === took 0.390912ms (3.90912E-4s) ===
+        === took 0.535223ms (5.35223E-4s) ===
     Part 2:
         199628
-        === took 0.482203ms (4.82203E-4s) ===
+        === took 0.555373ms (5.55373E-4s) ===
 Day 2:
     Part 1:
         17189
-        === took 0.786878ms (7.86878E-4s) ===
+        === took 0.850382ms (8.50382E-4s) ===
     Part 2:
         13490
-        === took 0.789321ms (7.89321E-4s) ===
+        === took 0.818573ms (8.18573E-4s) ===
 Day 3:
     Part 1:
         8085
-        === took 0.792965ms (7.92965E-4s) ===
+        === took 0.917194ms (9.17194E-4s) ===
     Part 2:
         2515
-        === took 0.653263ms (6.53263E-4s) ===
+        === took 0.722302ms (7.22302E-4s) ===
 Day 4:
     Part 1:
         487
-        === took 0.506799ms (5.06799E-4s) ===
+        === took 0.71067ms (7.1067E-4s) ===
     Part 2:
         849
-        === took 0.533702ms (5.33702E-4s) ===
+        === took 0.693103ms (6.93103E-4s) ===
 Day 5:
     Part 1:
         QGTHFZBHV
-        === took 1ms (0.001092675s) ===
+        === took 1ms (0.001067713s) ===
     Part 2:
         MGDMPSZTM
-        === took 1ms (0.00101352s) ===
+        === took 1ms (0.001031282s) ===
 Day 6:
     Part 1:
         1175
-        === took 0.231828ms (2.31828E-4s) ===
+        === took 0.221388ms (2.21388E-4s) ===
     Part 2:
         3217
-        === took 1ms (0.0012211s) ===
+        === took 1ms (0.00120968s) ===
 Day 7:
     Part 1:
         1118405
-        === took 0.477047ms (4.77047E-4s) ===
+        === took 0.55813ms (5.5813E-4s) ===
     Part 2:
         12545514
-        === took 0.444438ms (4.44438E-4s) ===
+        === took 0.523941ms (5.23941E-4s) ===
 Day 8:
     Part 1:
         1715
-        === took 12ms (0.012712313s) ===
+        === took 12ms (0.01226734s) ===
     Part 2:
         374400
-        === took 13ms (0.013159635s) ===
+        === took 13ms (0.013421162s) ===
 Day 9:
     Part 1:
         6337
-        === took 0.963ms (9.63E-4s) ===
+        === took 1ms (0.001118472s) ===
     Part 2:
         2455
-        === took 1ms (0.001869358s) ===
+        === took 2ms (0.002104015s) ===
 Day 10:
     Part 1:
-        (not implemented)
-        === took 9.9E-5ms (9.9E-8s) ===
+        14060
+        === took 0.092765ms (9.2765E-5s) ===
     Part 2:
-        (not implemented)
-        === took 9.1E-5ms (9.1E-8s) ===
+        ###...##..###..#..#.####.#..#.####...##.
+#..#.#..#.#..#.#.#..#....#.#..#.......#.
+#..#.#..#.#..#.##...###..##...###.....#.
+###..####.###..#.#..#....#.#..#.......#.
+#....#..#.#....#.#..#....#.#..#....#..#.
+#....#..#.#....#..#.#....#..#.####..##..
+
+        === took 0.103219ms (1.03219E-4s) ===
 Day 11:
     Part 1:
         (not implemented)
-        === took 8.0E-5ms (8.0E-8s) ===
+        === took 8.1E-5ms (8.1E-8s) ===
     Part 2:
         (not implemented)
-        === took 5.9E-5ms (5.9E-8s) ===
+        === took 4.7E-5ms (4.7E-8s) ===
 Day 12:
+    Part 1:
+        (not implemented)
+        === took 7.3E-5ms (7.3E-8s) ===
+    Part 2:
+        (not implemented)
+        === took 5.6E-5ms (5.6E-8s) ===
+Day 13:
+    Part 1:
+        (not implemented)
+        === took 8.4E-5ms (8.4E-8s) ===
+    Part 2:
+        (not implemented)
+        === took 7.5E-5ms (7.5E-8s) ===
+Day 14:
     Part 1:
         (not implemented)
         === took 9.8E-5ms (9.8E-8s) ===
     Part 2:
         (not implemented)
-        === took 9.9E-5ms (9.9E-8s) ===
-Day 13:
-    Part 1:
-        (not implemented)
-        === took 2.32E-4ms (2.32E-7s) ===
-    Part 2:
-        (not implemented)
-        === took 6.5E-5ms (6.5E-8s) ===
-Day 14:
-    Part 1:
-        (not implemented)
-        === took 7.0E-5ms (7.0E-8s) ===
-    Part 2:
-        (not implemented)
-        === took 5.4E-5ms (5.4E-8s) ===
+        === took 6.7E-5ms (6.7E-8s) ===
 Day 15:
     Part 1:
         (not implemented)
-        === took 9.9E-5ms (9.9E-8s) ===
+        === took 8.7E-5ms (8.7E-8s) ===
     Part 2:
         (not implemented)
-        === took 9.3E-5ms (9.3E-8s) ===
+        === took 6.5E-5ms (6.5E-8s) ===
 Day 16:
     Part 1:
         (not implemented)
-        === took 8.2E-5ms (8.2E-8s) ===
-    Part 2:
-        (not implemented)
-        === took 7.0E-5ms (7.0E-8s) ===
-Day 17:
-    Part 1:
-        (not implemented)
-        === took 9.2E-5ms (9.2E-8s) ===
-    Part 2:
-        (not implemented)
-        === took 7.5E-5ms (7.5E-8s) ===
-Day 18:
-    Part 1:
-        (not implemented)
-        === took 4.54E-4ms (4.54E-7s) ===
-    Part 2:
-        (not implemented)
-        === took 7.3E-5ms (7.3E-8s) ===
-Day 19:
-    Part 1:
-        (not implemented)
-        === took 9.6E-5ms (9.6E-8s) ===
-    Part 2:
-        (not implemented)
-        === took 8.7E-5ms (8.7E-8s) ===
-Day 20:
-    Part 1:
-        (not implemented)
-        === took 4.9E-5ms (4.9E-8s) ===
+        === took 1.53E-4ms (1.53E-7s) ===
     Part 2:
         (not implemented)
         === took 5.2E-5ms (5.2E-8s) ===
+Day 17:
+    Part 1:
+        (not implemented)
+        === took 2.79E-4ms (2.79E-7s) ===
+    Part 2:
+        (not implemented)
+        === took 7.2E-5ms (7.2E-8s) ===
+Day 18:
+    Part 1:
+        (not implemented)
+        === took 6.1E-5ms (6.1E-8s) ===
+    Part 2:
+        (not implemented)
+        === took 5.7E-5ms (5.7E-8s) ===
+Day 19:
+    Part 1:
+        (not implemented)
+        === took 2.34E-4ms (2.34E-7s) ===
+    Part 2:
+        (not implemented)
+        === took 5.7E-5ms (5.7E-8s) ===
+Day 20:
+    Part 1:
+        (not implemented)
+        === took 6.8E-5ms (6.8E-8s) ===
+    Part 2:
+        (not implemented)
+        === took 2.18E-4ms (2.18E-7s) ===
 Day 21:
     Part 1:
         (not implemented)
-        === took 6.6E-5ms (6.6E-8s) ===
+        === took 5.0E-5ms (5.0E-8s) ===
     Part 2:
         (not implemented)
-        === took 4.9E-5ms (4.9E-8s) ===
+        === took 4.6E-5ms (4.6E-8s) ===
 Day 22:
     Part 1:
         (not implemented)
-        === took 5.9E-5ms (5.9E-8s) ===
+        === took 3.65E-4ms (3.65E-7s) ===
     Part 2:
         (not implemented)
-        === took 1.0E-4ms (1.0E-7s) ===
+        === took 4.3E-5ms (4.3E-8s) ===
 Day 23:
     Part 1:
         (not implemented)
-        === took 5.8E-5ms (5.8E-8s) ===
+        === took 4.8E-5ms (4.8E-8s) ===
     Part 2:
         (not implemented)
         === took 4.5E-5ms (4.5E-8s) ===
 Day 24:
     Part 1:
         (not implemented)
-        === took 6.7E-5ms (6.7E-8s) ===
+        === took 4.7E-5ms (4.7E-8s) ===
     Part 2:
         (not implemented)
-        === took 4.5E-5ms (4.5E-8s) ===
+        === took 1.86E-4ms (1.86E-7s) ===
 Day 25:
     Part 1:
         (not implemented)
-        === took 1.4E-4ms (1.4E-7s) ===
+        === took 4.0E-5ms (4.0E-8s) ===
     Part 2:
         (not implemented)
-        === took 4.11E-4ms (4.11E-7s) ===
+        === took 3.2E-5ms (3.2E-8s) ===
