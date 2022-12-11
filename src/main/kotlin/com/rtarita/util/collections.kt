@@ -187,3 +187,11 @@ infix fun IntRange.intersect(other: IntRange): IntRange {
 }
 
 fun IntRange.isNotEmpty() = !isEmpty()
+
+fun Iterable<Long>.gcd(): Long {
+    return reduce { acc, elem -> gcd(acc, elem) }
+}
+
+fun Iterable<Long>.lcm(): Long {
+    return reduce { acc, elem -> lcm(acc, elem) }
+}

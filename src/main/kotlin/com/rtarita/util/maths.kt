@@ -67,3 +67,18 @@ infix fun Double.epsilonEq(other: Double): Boolean {
 fun Int.inModRange(a: Int, b: Int): Int {
     return this - (b - a) * ((this - a) / (b - a))
 }
+
+fun gcd(a: Long, b: Long): Long {
+    var currentA = a
+    var currentB = b
+    while (currentB != 0L) {
+        val temp = currentB
+        currentB = currentA % currentB
+        currentA = temp
+    }
+    return currentA
+}
+
+fun lcm(a: Long, b: Long): Long {
+    return a * (b / gcd(a, b))
+}
