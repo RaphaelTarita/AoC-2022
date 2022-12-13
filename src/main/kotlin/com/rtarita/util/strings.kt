@@ -86,20 +86,25 @@ private fun matching(symbol: Char): Char = when (symbol) {
 }
 
 fun String.indexOfMatching(symbol: Char, offset: Int = 0, matching: Char = matching(symbol)): Pair<Int, Int> {
-    val stack = mutableListOf<Unit>()
+    var level = 0
     var first = -1
-    for (i in offset..this.length) {
+    for (i in offset..this.lastIndex) {
         if (get(i) == symbol) {
             if (first == -1) first = i
-            stack.add(Unit)
+            ++level
         }
-        if (get(i) == matching) stack.removeLast()
-        if (first != -1 && stack.isEmpty()) return first to i
+        if (get(i) == matching) --level
+        if (first != -1 && level == 0) return first to i
     }
     return first to -1
 }
 
-fun String.splitTopLevel(startIndex: Int = 0, endIndex: Int = lastIndex, trim: Boolean = false): List<String> {
+fun String.splitTopLevel(
+    vararg matchingChars: Char = charArrayOf('(', '[', '{', '<'),
+    startIndex: Int = 0,
+    endIndex: Int = lastIndex,
+    trim: Boolean = false
+): List<String> {
     val offsetInternal = if (trim) {
         indexOfFirst(startIndex.coerceAtLeast(0), endIndex.coerceAtMost(lastIndex)) { !it.isWhitespace() }
     } else {
@@ -119,7 +124,7 @@ fun String.splitTopLevel(startIndex: Int = 0, endIndex: Int = lastIndex, trim: B
 
         val prev = i
         when (cur) {
-            '{', '[' -> i = indexOfMatching(cur, i).second
+            in matchingChars -> i = indexOfMatching(cur, i).second
             '\"', '\'' -> i = indexOfExcluding(cur, "\\", i + 1)
             ',' -> {
                 result.add(accumulator.toString())
