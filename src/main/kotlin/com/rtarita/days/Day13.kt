@@ -50,7 +50,7 @@ object Day13 : AoCDay {
             .sumOf { (idx, _) -> idx + 1 }
     }
 
-    override fun executePart2(input: String): Any {
+    override fun executePart2(input: String): Int {
         val divider1 = listOf(listOf(2))
         val divider2 = listOf(listOf(6))
         val sorted = getListPairs(input).flatMap { (a, b) -> listOf(a, b) }
