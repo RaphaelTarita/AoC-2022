@@ -1,6 +1,6 @@
-![](https://img.shields.io/badge/day%20📅-13-yellow)
-![](https://img.shields.io/badge/stars%20⭐-26-blue)
-![](https://img.shields.io/badge/days%20completed-13-green)
+![](https://img.shields.io/badge/day%20📅-14-yellow)
+![](https://img.shields.io/badge/stars%20⭐-28-blue)
+![](https://img.shields.io/badge/days%20completed-14-green)
 
 # AoC-2022
 
@@ -22,6 +22,7 @@ taken from my [AoC-2021 repository](https://github.com/RaphaelTarita/AoC-2021) f
 - [Day 11](src/main/kotlin/com/rtarita/days/Day11.kt): solved, 2 stars ([input](input/day11.txt))
 - [Day 12](src/main/kotlin/com/rtarita/days/Day12.kt): solved, 2 stars ([input](input/day12.txt))
 - [Day 13](src/main/kotlin/com/rtarita/days/Day13.kt): solved, 2 stars ([input](input/day13.txt))
+- [Day 14](src/main/kotlin/com/rtarita/days/Day14.kt): solved, 2 stars ([input](input/day14.txt))
 
 ### Contents:
 
