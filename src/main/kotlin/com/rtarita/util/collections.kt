@@ -188,6 +188,10 @@ infix fun IntRange.intersect(other: IntRange): IntRange {
 
 fun IntRange.isNotEmpty() = !isEmpty()
 
+infix fun Int.towards(end: Int): IntProgression {
+    return IntProgression.fromClosedRange(this, end, if (this < end) 1 else -1)
+}
+
 fun Iterable<Long>.gcd(): Long {
     return reduce { acc, elem -> gcd(acc, elem) }
 }
